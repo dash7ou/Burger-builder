@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Order from "../../Components/Order/Order";
 import axios from "../../axios-order";
-import order from "../../Components/Order/Order";
 
 class Orders extends Component {
   state = {
@@ -21,7 +20,6 @@ class Orders extends Component {
     });
   }
   render() {
-    console.log(this.state.orders);
     const orders = [];
     this.state.orders.map(order => {
       orders.push(

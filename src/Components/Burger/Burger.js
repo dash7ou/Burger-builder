@@ -16,6 +16,7 @@ const burger = props => {
         <BurgerIngredint type={x} key={index + Math.random()} />
       );
     }
+    return true;
   });
 
   return (

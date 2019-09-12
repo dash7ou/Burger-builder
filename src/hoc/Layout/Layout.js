@@ -3,7 +3,6 @@ import Aux from "../Aux/Aux";
 import classes from "./Layout.module.css";
 import Toolbar from "../../Components/Navigation/Toolbar/Toolbar";
 import SideDrawer from "../../Components/SideDrawer/SideDrawer";
-import sideDrawer from "../../Components/SideDrawer/SideDrawer";
 
 class Layout extends Component {
   state = {

@@ -9,6 +9,7 @@ const order = props => {
   const countIngredients = Object.values(props.ingredients);
   IngredientsKeys.map((ingredient, index) => {
     ingredients.push(`${ingredient}: (${countIngredients[index]})\n`);
+    return true;
   });
 
   return (
